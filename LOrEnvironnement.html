@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+      <!--largeur de la page sera automatiquement 
+    ajustée pour correspondre à la largeur de l'écran sur les appareils mobiles
+    'aucun zoom initial n'est appliqué et que la page est affichée à l'échelle 1:1-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--lien pour la bibliothèque BootStrap CSS locale mais pas de lien pour JS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- lien pour les fontes googleapis Robotocondensed>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!--lien pour le CSS local -->
+    <link rel="stylesheet" type="text/css" href="LOrEnvironnement.css">
+    <title>Association L'Or Environnement</title>
+</head>
+<!-- lien bootstrap-->
+
+<body >
+    <header class="container bg-success-subtle">
+       
+    <nav class="navbar fixed-top navbar-expand-sm bg-body-secondary">
+      <nav class="container-fluid">
+            <!-- affichage logo: en haut à gauche  -->
+            <a class="navbar-brand" href="#"><img src="LogoLorEnvironnement.jpg" alt="le logo de l'association L'Or Environnement" width="150" height="60"> 
+            </a>
+             <!-- le menu hamburger s'efface pour laisser la place au menu normal pour un écran inférieur à sm-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav justify-content-center align-items-center">
+                    <button class="btn btn-success" onclick="window.location.href='LOrEnvironnement.html'">Accueil</button>
+                    <button class="btn btn-success" onclick="window.location.href='National.html'">National</button>
+                    <button class="btn btn-success" onclick="window.location.href='Mentions légales'">Mentions légales</button>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    </header>
+    <main >  
+        <div class="container-fluid row g-0 mt-5">
+            <h1 class="mt-5 fw-bold text-center" > Association L'Or Environnement</h1>
+            <div class="card col-12 col-md-4 me-3">
+                <img src="jardin-potager.jpg" class="card-img-top" alt="un jardin potager">
+                <div class="card-body text-center">
+                    <h2 class="card-title">Jardins Partagés</h3>
+                    <h3 class="card-subtitle">à Mauguio</h5>
+                    <p class="card-text my-4">Rejoignez nous pour cultiver ce jardin potager. 
+                        Sur cette terre de 1 hectare, nous travaillons la terre en commun
+                    et partageons ses récoltes, arbres fruitiers, légumes. Rejoignez nous! </p>
+                    <a href="#" class="btn btn-success">En construction</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-3 me-3">
+                <img src="conference.jpg" class="card-img-top" alt="un conférencier parle à la foule">
+                <div class="card-body text-center">
+                    <h2 class="card-title">Conferences et débats</h3>
+                    <h3 class="card-subtitle">à Mauguio</h5>
+                    <p class="card-text my-4">Régulièrement organisation de conférences et débats 
+                        sur le thème de l'environnement, voir agenda </p>
+                    <a href="#" class="btn btn-success">En construction</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-3 me-3">
+                <img src="france-map.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h2 class="card-title">Actualités Environnement</h3>
+                    <h3 class="card-subtitle mb-4">National</h5>
+                    <p class="card-text my-4">Notre association vous informe des progrès des mesures 
+                        environnementales nationales ainsi que des initiatives locales</p>
+                    <a class="btn btn-success" href="National.html">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+
+        
+    </footer>
+
+</body>
+<!-- Bootstrap JavaScript -->
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+<!-- Our JavaScript -->
+<!--script src="script.js"></script> -->
+</body>
+</html>
