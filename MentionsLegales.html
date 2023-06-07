@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+      <!--largeur de la page sera automatiquement 
+    ajustée pour correspondre à la largeur de l'écran sur les appareils mobiles
+    'aucun zoom initial n'est appliqué et que la page est affichée à l'échelle 1:1-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--lien pour la bibliothèque BootStrap CSS locale mais pas de lien pour JS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- lien pour les fontes googleapis Robotocondensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!--lien pour le CSS local -->
+    <link rel="stylesheet" type="text/css" href="LOrEnvironnement.css">
+    <title>Mentions Légales</title>
+  </head>
+  <body>
+    <header class="container bg-success-subtle">
+       
+        <nav class="navbar fixed-top navbar-expand-sm bg-body-secondary">
+          <nav class="container-fluid">
+                <!-- affichage logo: en haut à gauche  -->
+                <a class="navbar-brand" href="#"><img src="LogoLorEnvironnement.jpg" alt="le logo de l'association L'Or Environnement" width="150" height="60"> 
+                </a>
+                 <!-- le menu hamburger s'efface pour laisser la place au menu normal pour un écran inférieur à sm-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav justify-content-center align-items-center">
+                        <button class="btn btn-success" onclick="window.location.href='LOrEnvironnement.html'">Accueil</button>
+                        <button class="btn btn-success" onclick="window.location.href='National.html'">National</button>
+                        <button class="btn btn-success" onclick="window.location.href='MentionsLegales.html'">Mentions légales</button>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <main >  
+        <div class="container row g-4 mt-5 ">
+            <h1 class="mt-5 fw-bold text-center" > Mentions Légales</h1>
+            <p>
+                Vous consultez actuellement le site https://www.xxxxx ¨
+                qui est édité par l’Association L'Or Environnement
+                <p>
+                    SIREN: 843 632 100
+                </p>
+                <p>
+                Siège : 16, rue de la Portette, 34130 Mauguio.
+                </p>
+               
+                <p>
+                Directeur de la publication : xxxxxxx xxxxxxx
+                </p>
+               
+                <h2>Hebergement</h2>
+                <p> Ce site est hébérgé par xxxx, dot le siège social est à</p>
+              
+                <h2>Editeur</h2>
+                <p>L’éditeur s’engage à respecter l’ensemble des lois 
+                concernant la mise en place et l’activité d’un site 
+                Internet.
+                </p>
+                <h2>Article 1</h2>
+                <p>L'accès au site et son utilisation sont réservés à un usage strictment personnel. 
+                Vous vous engagez à ne pas utiliser ce site et les informations et données qui y figurent à des fins
+                commerciales, politiques, publicitaires et pour toute forme de sollicitationcommerciale.</p>
+                <h2>Article 2</h2>
+                <p>...</p>
+
+                
+            </p>
+          
+        </div>
+       
+    </main>
+
+  <footer class="container row g-1 m-3 bg-success-subtle"> 
+    <div class="col-md-5 mb-3">
+        <div class="box">
+            <h3>Contact</h3>
+            <img src="envelope-at.svg" alt="image courriel">
+            <a href="mailto:example@example.com">
+                <i class="bi bi-envelope-at"></i>example@example.com
+            </a>
+            <br>
+            <img src="telephone.svg" alt="image téléphone"> 07-xx-xx-xx-xx
+        </div>
+    </div>
+    <div class="col-md-5 mb-3">
+        <div class="box">
+            <h3>Lieu</h3>
+            <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92471.1260814314!2d3.9302748916979944!3d43.591492186026116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a310cec356c1%3A0x4078821166ac570!2s34130%20Mauguio!5e0!3m2!1sfr!2sfr!4v1686048053749!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JavaScript -->/
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
