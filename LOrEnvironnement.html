@@ -2,11 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-      <!--largeur de la page sera automatiquement 
-    ajustée pour correspondre à la largeur de l'écran sur les appareils mobiles
-    'aucun zoom initial n'est appliqué et que la page est affichée à l'échelle 1:1-->
+      <!--la largeur de la page sera automatiquement ajustée pour correspondre à la largeur 
+        de l'écran sur les appareils mobiles.
+        Aucun zoom initial n'est appliqué et que la page est affichée à l'échelle 1:1-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--lien pour la bibliothèque BootStrap CSS locale mais pas de lien pour JS -->
+    <!--lien pour la bibliothèque BootStrap CSS locale  -->
+    <meta name="description" content="L'Association L'Or Environnement sur la commune de Mauguio 
+    soutient les initiatives environnementales locales sur le Pays de l'Or">
+    <meta name="author" content="Veronique Knight">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- lien pour les fontes googleapis Robotocondensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,36 +20,43 @@
     <link rel="stylesheet" type="text/css" href="LOrEnvironnement.css">
     <title>Association L'Or Environnement</title>
 </head>
-<!-- lien bootstrap-->
-
 <body >
-    <header class="container bg-success-subtle">
-       
-    <nav class="navbar fixed-top navbar-expand-sm bg-body-secondary">
-      <nav class="container-fluid">
-            <!-- affichage logo: en haut à gauche  -->
-            <a class="navbar-brand" href="#"><img src="LogoLorEnvironnement.jpg" alt="le logo de l'association L'Or Environnement" width="150" height="60"> 
-            </a>
-             <!-- le menu hamburger s'efface pour laisser la place au menu normal pour un écran inférieur à sm-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    <header class="container g-3 m-3 bg-success-subtle">     
+        <nav class="navbar fixed-top navbar-expand-sm bg-body-secondary">
+            <nav class="container-fluid">
+                <!-- affichage logo: en haut à gauche  -->
+                <a class="navbar-brand" href="#"><img src="LogoLorEnvironnement.jpg" alt="le logo de l'association L'Or Environnement" width="150" height="60"> 
+                </a>
+                <!-- le menu hamburger s'efface pour laisser la place au menu normal pour un écran inférieur à sm-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="navbar-nav justify-content-center align-items-center">
-                    <button class="btn btn-success" onclick="window.location.href='LOrEnvironnement.html'">Accueil</button>
-                    <button class="btn btn-success" onclick="window.location.href='National.html'">National</button>
-                    <button class="btn btn-success" onclick="window.location.href='MentionsLegales.html'">Mentions légales</button>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav justify-content-center align-items-center">
+                        <button class="btn btn-success" onclick="window.location.href='LOrEnvironnement.html'">Accueil</button>
+                        <button class="btn btn-success" onclick="window.location.href='National.html'">National</button>
+                        <button class="btn btn-success" onclick="window.location.href='MentionsLegales.html'">Mentions légales</button>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </nav>
-    </nav>
     </header>
-    <main >  
-        <div class="container row g-1 mt-5 ">
+    <!-- g-3 gouttière de 3px entre éléments du container-->
+    <main class="container g-3 m-3 mt-5"> 
+        <div class="row"> <!-- première rangée -->
             <h1 class="mt-5 fw-bold text-center" > Association L'Or Environnement</h1>
-            <div class="card col-12 col-md-4 m-3">
+            <p>L'Or Environnement est une association loi 1901, établie 
+            à Mauguio dans l'Hérault.
+            <br>Elle oeuvre à promouvoir, éduquer et agir en faveur de la protection 
+            de l'environnement du Pays de l'Or.
+            Ce territoire couvre le canton de Mauguio, et fait partie de la petite Camargue
+            autour de l'Etang de l'Or.
+            </p>
+        </div>
+        <div class="row"> <!-- deuxième rangée -->
+            <div class="card col-12 col-md-4 m-3 text-center">
                 <img src="jardin-potager.jpg" class="card-img-top" alt="un jardin potager">
                 <div class="card-body text-center">
                     <h2 class="card-title">Jardins Partagés</h2>
@@ -75,11 +86,11 @@
                     <a class="btn btn-success" href="National.html">En savoir plus</a>
                 </div>
             </div>
-        </div>
-       
+        </div> 
     </main>
-    <footer class="container row g-1 m-3 bg-success-subtle"> 
-            <div class="col-md-5 mb-3">
+    <footer class="container g-3 m-3 mb-3 bg-success-subtle" >
+        <div class="row "> 
+            <div class="col-md-5 ">
                 <div class="box">
                     <h3>Contact</h3>
                     <img src="envelope-at.svg" alt="image courriel">
@@ -90,12 +101,13 @@
                     <img src="telephone.svg" alt="image téléphone"> 07-xx-xx-xx-xx
                 </div>
             </div>
-            <div class="col-md-5 mb-3">
+            <div class="col-md-5 ">
                 <div class="box">
                     <h3>Lieu</h3>
                     <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92471.1260814314!2d3.9302748916979944!3d43.591492186026116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a310cec356c1%3A0x4078821166ac570!2s34130%20Mauguio!5e0!3m2!1sfr!2sfr!4v1686048053749!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+        </div>
     </footer>
     <!-- Bootstrap JavaScript -->/
     <script src="../js/bootstrap.bundle.min.js"></script>
