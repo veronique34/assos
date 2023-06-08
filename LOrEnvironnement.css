@@ -1,8 +1,10 @@
-header, main {
+body {
   font-family: "Roboto Condensed", Arial, sans-serif;
- color: green; 
 }
-footer>h3, footer>p{
+h1,h2 {
+color: green; 
+}
+h3, footer>p{
 color: black;
 }
 h1, h2, h3, p, img {margin: 5px; }

@@ -13,4 +13,22 @@ A list of technologies used within the project:
 * [HTML] version 5
 * [CSS] 4.15 
 ## Installation
+* Need the following image files:
+* BannerFeteNature.JPG
+* Flyer-Mudaison-Vivant.jpg
+* LogoLorEnvironnement.jpg
+* conference.jpg
+* envelope-at.svg
+* france-map.png
+* jardin-potager.jpg
+* telephone.svg
+*
+* code files:
+* LOrEnvironnement.html
+* MentionsLegales.html
+* National.html
+* LOrEnvironnement.css
+
+
+
 ***
