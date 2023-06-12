@@ -28,7 +28,10 @@ A list of technologies used within the project:
 * MentionsLegales.html
 * National.html
 * LOrEnvironnement.css
-
-
-
+*
+* Bootstrap
+* bootstrap.bundle.min.js
+* bootstrap.css
+## EXECUTION:
+* sur : https://veronique34.github.io/assos/LOrEnvironnement.html
 ***
