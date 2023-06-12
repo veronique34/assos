@@ -3,7 +3,8 @@
 ### General Info
 ***
 This project is part of Studi Curriculum for 
-"graduate full stack developper" 
+"graduate full stack developper".
+Student: Veronique Knight 
 It is about using responsive design with media queries 
 using git design and github deposit 
 ## Technologies
